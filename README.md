@@ -6,7 +6,7 @@ Over $2 billion has been raised using the massively successful crowdfunding serv
 
 Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. For this project organize and analyze a database of 4,000 past projects in order to uncover any hidden trends.
 
-This project generates insights about the Kickstart My Chart dataset and defines the outcomes by using tables, graphs, and statistical summaries. Final Workbook
+This project generates insights about the Kickstart My Chart dataset and defines the outcomes by using tables, graphs, and statistical summaries.
 
 Solution
 
@@ -23,7 +23,5 @@ Category Stats
 
 A new sheet with a pivot table was created and analyzed the initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category. In addition to that, a stacked column pivot chart was created that can be filtered by country and parent-category.
 Subcategory Stats
-
-The format of dates stored within the "deadline" and "launched_at" columns was converted from Unix timestamps format into Excel's date format and new columns named "Date Created Conversion" and "Date Ended Conversion" was created respectively.
 
 A new sheet with a pivot table was created with a column of "state",rows of "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created. "Date Created Conversion", values based on the count of "state", and filtered based on "parent category" and "Years". Subsequently, a pivot chart line graph that visualizes this new table was created.
